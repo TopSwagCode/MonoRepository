@@ -5,6 +5,7 @@ on:
     - master
     paths:
     - 'src/WebApp/**'
+    - 'src/SharedModels/**'
 env:
   AZURE_WEBAPP_NAME: WebAppTopSwagCode
   AZURE_WEBAPP_PACKAGE_PATH: ./published

@@ -1,3 +1,5 @@
+using SharedModels;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -41,8 +43,3 @@ app.MapGet("/weatherforecast", () =>
 .WithName("GetWeatherForecast");
 
 app.Run();
-
-internal record WeatherForecast(DateTime Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-}

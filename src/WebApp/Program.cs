@@ -1,7 +1,10 @@
+using SharedModels;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+builder.Services.AddHttpClient<WeatherClient>( httpClient => httpClient.BaseAddress = new Uri("https://webapitopswagcode.azurewebsites.net/")); // Add options for local development
 
 var app = builder.Build();
 
