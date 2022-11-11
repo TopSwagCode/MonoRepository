@@ -7,4 +7,4 @@ Mono Repository
 * Add commit sha somewhere visible to each app
 * Add version to each app
 * Add static App
-* Add custom domains
+* Introduce best practices testing and programming
