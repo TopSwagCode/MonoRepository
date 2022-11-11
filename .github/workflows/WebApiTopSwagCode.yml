@@ -1,4 +1,4 @@
-name: Build and deploy .NET Core application to Web App WebAppTopSwagCode
+name: Build and deploy .NET Core application to Web App WebApiTopSwagCode
 on:
   push:
     branches:
@@ -30,7 +30,7 @@ jobs:
       uses: azure/webapps-deploy@v2
       with:
         app-name: ${{ env.AZURE_WEBAPP_NAME }}
-        publish-profile: ${{ secrets.WebAppTopSwagCode_FFFF }}
+        publish-profile: ${{ secrets.WebApiTopSwagCode_FFFF }}
         package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
     - name: Publish Artifacts
       uses: actions/upload-artifact@v1.0.0
