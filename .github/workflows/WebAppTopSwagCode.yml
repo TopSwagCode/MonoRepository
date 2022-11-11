@@ -1,8 +1,10 @@
-name: Build and deploy .NET Core application to Web App WebAppTopSwagCode
+name: Web App WebAppTopSwagCode
 on:
   push:
     branches:
     - master
+    paths:
+    - 'src/WebApp/**'
 env:
   AZURE_WEBAPP_NAME: WebAppTopSwagCode
   AZURE_WEBAPP_PACKAGE_PATH: ./published
