@@ -18,10 +18,10 @@
 @foreach (var forecast in Model.WeatherForecasts)
 {
     <tr>
-        <td>forecast.Date</td>
-        <td>forecast.Summary</td>
-        <td>forecast.TemperatureC</td>
-        <td>forecast.TemperatureF</td>
+        <td>@forecast.Date</td>
+        <td>@forecast.Summary</td>
+        <td>@forecast.TemperatureC</td>
+        <td>@forecast.TemperatureF</td>
     </tr>
 }
     </tbody>

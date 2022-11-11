@@ -1,4 +1,4 @@
-name: Web App WebAppTopSwagCode
+name: Web App
 on:
   push:
     branches:
