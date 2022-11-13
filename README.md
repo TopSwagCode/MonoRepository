@@ -19,3 +19,9 @@ Mono Repository. Idea of this project:
 * Some basic rate-limiting. Should help keeping my cheap ass servers up and running :P
 * Move all projects in here. One at the time.
 * Don't simply delete old repositories. Make link to where the stuff has moved.
+
+
+
+# Note to self. GRPC is special when deployed:
+
+https://github.com/Azure/app-service-linux-docs/blob/master/HowTo/gRPC/use_gRPC_with_dotnet.md
