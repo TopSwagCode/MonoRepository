@@ -1,5 +1,4 @@
 name: Static Web App
-
 on:
   push:
     branches:
