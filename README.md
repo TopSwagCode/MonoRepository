@@ -19,7 +19,7 @@ Mono Repository. Idea of this project:
 * Some basic rate-limiting. Should help keeping my cheap ass servers up and running :P
 * Move all projects in here. One at the time.
 * Don't simply delete old repositories. Make link to where the stuff has moved.
-
+* Dont forget web sockets! :D
 
 
 # Note to self. GRPC is special when deployed:
