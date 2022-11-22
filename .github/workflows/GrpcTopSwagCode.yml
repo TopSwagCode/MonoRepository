@@ -1,4 +1,4 @@
-name: Grpc Service 2
+name: Grpc Service
 on:
   push:
     branches:
